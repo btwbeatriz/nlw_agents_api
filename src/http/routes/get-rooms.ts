@@ -10,7 +10,7 @@ export const getRoomsRoute: FastifyPluginCallbackZod = async ( app ) =>{
             name: schema.rooms.name,
         })
         .from(schema.rooms)
-        .orderBy(schema.rooms.creeatedAt)
+        .orderBy(schema.rooms.createdAt)
 
         return results
     })
