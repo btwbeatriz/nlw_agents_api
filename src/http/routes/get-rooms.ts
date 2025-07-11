@@ -1,7 +1,6 @@
 import type { FastifyPluginCallbackZod} from "fastify-type-provider-zod"
 import { db } from "../../db/connection.ts"
 import { schema } from "../../db/schema/index.ts"
-import { id } from "zod/v4/locales"
 
 export const getRoomsRoute: FastifyPluginCallbackZod = async ( app ) =>{
     
