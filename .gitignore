@@ -19,7 +19,7 @@ pnpm-debug.log*
 /dist
 /build
 
-# Cache do TypeScript.
+# Cache do TypeScript
 *.tsbuildinfo
 
 # Arquivos de IDEs e editores
